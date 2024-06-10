@@ -1,0 +1,134 @@
+body{
+    background-image: url(../img/fundotigrinho.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal {
+    padding: 110px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#subprincipal {
+    top: 190px;
+    position: relative;
+    align-items: center;
+    width: 400px;
+    height: 445px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#titulo2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+/* Legendas */
+#cadastroFinalizado {
+    color: white;
+}
+
+#legenda1{
+    margin-left: -80px;
+    color: white;
+}
+
+#legenda2{
+    margin-left: 130px;
+    color: white;
+}
+
+
+#legenda3{
+    margin-left: -289px;
+    color: white;
+}
+
+#legenda4{
+    margin-left: -275px;
+    color: white;
+}
+
+#legenda5{
+    margin-left: -287px;
+    color: white;
+}
+
+
+/* Valor dos Inputs */
+
+#valor1{
+    background-color: white;
+    height: 30px;
+    border: 0;
+    border-radius: 7px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 670;
+
+}
+
+#valor2{
+    background-color: white;
+    height: 30px;
+    border: 0;
+    border-radius: 7px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 670;
+}
+
+#valor3{
+    background-color: white;
+    height: 30px;
+    width: 336px;
+    border: 0;
+    border-radius: 7px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 670;
+
+}
+
+#valor4{
+    background-color: white;
+    height: 30px;
+    width: 336px;
+    border: 0;
+    border-radius: 7px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 670;
+}
+
+#valor5{
+    background-color: white;
+    height: 30px;
+    width: 336px;
+    border: 0;
+    border-radius: 7px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 670;
+}
+
+#botao {
+    background-color: #D04CB0;
+    border: 5px solid #be4aa1;
+    color: white;
+    height: 45px;
+    width: 95px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#botao:hover{
+    height: 55px;
+    width: 105px;
+}

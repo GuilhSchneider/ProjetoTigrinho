@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/cadastro.css">
+    <title>Jogo do Tigrinho | Cadastro</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="icon" type="png" href="img/logo.png">
+</head>
+<body>
+    <div id="principal">
+        <div id="subprincipal">
+    <h1 id="titulo2">Cadastre-se</h1>
+    <Label id="legenda1">Nome</Label>   <Label id="legenda2">Sobrenome</Label><br>
+    <input id="valor1" placeholder="Digite o seu nome" type="text"> 
+    <input id="valor2" placeholder="Digite seu sobrenome" type="text">
+
+    <br><br>
+    <Label id="legenda3">Email</Label><br>
+    <input id="valor3" placeholder="Digite o seu e-mail" type="email"> <br><br>
+    <Label id="legenda4">Telefone</Label><br>
+    <input id="valor4" placeholder="Digite o seu telefone" type="number"> <br><br>
+    <label id="legenda5">Senha</label><br>
+    <input id="valor5" placeholder="Digite uma senha" type="password"> <br><br> 
+    <input type="button" value="Cadastrar" id="botao" onclick="cadastrar()">
+        </div>
+    </div>
+</body>
+<script src="JS/cadastro.js"></script>
+</html>

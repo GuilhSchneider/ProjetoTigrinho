@@ -1,0 +1,62 @@
+body{
+    background-image: url(../img/fundotigrinho.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal {
+    padding: 110px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#subprincipal {
+    top: 190px;
+    position: relative;
+    align-items: center;
+    width: 400px;
+    height: 455px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#titulo{
+    color: white;
+}
+
+#subTitulo{
+    color: white;
+}
+
+#saldo{
+    position: relative;
+    left: -120px;
+    color: white;
+}
+
+#valores{
+    border-radius: 50px;
+    background-color: rgba(75, 73, 73, 0.5);
+}
+
+#qrcode{
+    width: 150px;
+    height: 150px;
+}
+
+#concluido {
+    background-color: #D04CB0;
+    border: 5px solid #be4aa1;
+    color: white;
+    height: 45px;
+    width: 95px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#concluido:hover{
+    height: 55px;
+    width: 105px;
+}

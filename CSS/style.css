@@ -1,0 +1,33 @@
+body{
+    background-image: url(../img/fundotigrinho.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tigrinho{
+    border: 1px solid black;
+    position: relative;
+    border-radius: 5px;
+    top: 65px;
+    height: 680px;
+    width: 350px;
+}
+
+.botao{
+    font-weight: 1000;
+    width: 185px;
+    position: relative;
+    color: white;
+    border-radius: 5px;
+    background-color: #D04CB0;
+    border: 5px solid #be4aa1;
+    height: 65px;
+    top: 65px;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    height: 75px;
+    width: 195px;
+}
